@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "69665133593",
+    "project_id": "apartamentos-moviles2",
+    "storage_bucket": "apartamentos-moviles2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69665133593:android:f59953a8975b3feb1a4688",
+        "android_client_info": {
+          "package_name": "com.apartamentos.moviles2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69665133593-neiej903r2ggnfg2jsautpbhm3u2ebtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZNgi_jJuBe9MJaXH-j7ZZoFxMigN_Vh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69665133593-neiej903r2ggnfg2jsautpbhm3u2ebtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

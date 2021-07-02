@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/colorPrimary"
+    android:onClick="addAparments"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvCiudadApt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ciudad" />
+
+        <TextView
+            android:id="@+id/tvPais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pais" />
+
+        <TextView
+            android:id="@+id/tvDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Direccion" />
+
+        <EditText
+            android:id="@+id/tvnValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Valor"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tvResena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reseña" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEditApartment"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:onClick="editApartment"
+                android:text="Editar"
+                app:shapeAppearance="@style/roundedButton" />
+
+            <Button
+                android:id="@+id/btnEliminarApartment"
+                android:layout_width="164dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Eliminar"
+                app:shapeAppearance="@style/roundedButton" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
